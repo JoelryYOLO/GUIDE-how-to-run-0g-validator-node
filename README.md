@@ -9,3 +9,19 @@ Before you start, it’s worth mentioning the system requirements; below are the
 - Disk: 1 TB NVME SSD
 - Bandwidth: 100 MBps for Download / Upload
 ```
+
+Double check that your computer meets these requirements.
+
+# Install
+Great, now we can move on to the installation itself! Installation will take place using a code.
+
+```bash
+git clone -b v0.2.3 https://github.com/0glabs/0g-chain.git
+./0g-chain/networks/testnet/install.sh
+source ~/.profile
+```
+
+**Set Chain ID**
+```bash
+0gchaind config chain-id zgtendermint_16600-2
+```
