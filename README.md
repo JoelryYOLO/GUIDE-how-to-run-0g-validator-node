@@ -52,4 +52,6 @@ source ~/.profile
 ```bash
 0gchaind start
 ```
-     
+
+
+That's all! I hope my guide helped you! I will be glad to receive your feedback!
