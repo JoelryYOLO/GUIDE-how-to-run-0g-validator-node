@@ -33,7 +33,7 @@ source ~/.profile
 
 # Download Genesis File and add Seeds
 1. Download Genesis
-     1. ```bash
+   ```bash
      sudo apt install -y unzip wget
      rm ~/.0gchain/config/genesis.json
      wget -P ~/.0gchain/config https://github.com/0glabs/0g-chain/releases/download/v0.2.3/genesis.json
